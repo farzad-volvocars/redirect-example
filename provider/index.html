@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure AD</title>
+  </head>
+  <body>
+    <h1>Azure AD</h1>
+    <p>Serving client <em>{{.}}</em></p>
+    <label>Email</label><input type="text" readonly value="a@b.com" />
+    <label>Password</label><input type="password" readonly value="pass" />
+    <a href="http://localhost:3002/callback?id={{.}}">Check Credentials</a>
+  </body>
+</html>
